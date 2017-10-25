@@ -105,7 +105,7 @@ aside {
 main {
   background-color: #1E2228;
   width: calc(100vw - 350px);
-  height: 500px;
+  height: 600px;
   position: absolute;
   top: 150px;
   right: 20px;
@@ -147,6 +147,62 @@ main button {
   right: 40px;
 }
 
-footer img {
-  width: 100vw;
+.goal1 {
+  position: absolute;
+  bottom: 200px;
+  color: #FFBA10;
+  background-color: #171A1D;
+  margin: 0px 30px;
+  /*padding: 20px;*/
 }
+
+.goal1 p {
+  background-color: #171A1D;
+  display: inline-block;
+  width: 75%;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin: 20px;
+
+}
+
+.goal1 .box {
+  height: 75px;
+  background-color: #FFFFFF;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin-left: 150px;
+}
+
+.goal2 {
+  position: absolute;
+  bottom: 100px;
+  color: #FFBA10;
+  background-color: #171A1D;
+  margin: 0px 30px;
+  /*padding: 20px;*/
+}
+
+.goal2 p {
+  background-color: #171A1D;
+  display: inline-block;
+  width: 75%;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin: 20px;
+
+}
+
+.goal2 .box {
+  height: 75px;
+  background-color: #FFFFFF;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin-left: 150px;
+}
+
+/*footer img {
+  width: 100vw;
+}*/
