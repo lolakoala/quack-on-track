@@ -203,6 +203,32 @@ main button {
   margin-left: 150px;
 }
 
+@media only screen and (max-width: 600px){
+  aside {
+     position: initial;
+      }
+  main {
+      position: initial;
+  }
+
+  .top {
+      display: initial;
+  }
+
+  .user {
+      padding-top: 100px;
+      width: 100vw;
+  }
+
+  .calendar img {
+      width: 100vw;
+  }
+
+  main {
+      width: 100vw;
+  }
+}
+
 /*footer img {
   width: 100vw;
 }*/
